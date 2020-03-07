@@ -1,0 +1,173 @@
+/*css reset*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size:10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+/*Utility clasesses*/
+.primary-color{
+    color:green;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: #ffffff;
+    z-index: 1;
+    padding: 1.4rem;
+    position: sticky;
+    top:0;
+}
+
+header .left-header{
+    align-items: center;
+
+}
+header .left-header h2{
+    font-size:2.8rem;
+    display: inline-block;
+}
+header{
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+header .left-header i {
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+/*showcase*/
+#showcase{
+    background: url('/images/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#showcase .background-img{
+    /*Overlay*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width:100%;
+}
+
+#showcase .showcase-text{
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+
+#showcase .showcase-text h1{
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+#showcase .showcase-text p {
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+
+#showcase .showcase-text a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    padding:1.1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+#showcase .showcase-text a:hover{
+    background-color: darkgreen;
+}
+
+/*What we do*/
+
+#what{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#what h2{
+    font-size: 2.7rem;
+    padding: 30px
+}
+
+.what-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-content .box{
+    padding:20px;
+    margin: 0 20px
+}
+
+.what-content .box h3{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.what-content .box i{
+    background-color: green;
+    padding:20px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+/*Who Are We Section*/
+#who{
+    display: flex;
+    background-color: #333333;
+    color: white;
+}
+#who .who-img{
+    background: url('/images/people.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+#who .who-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.who-content ul{
+    list-style: none;
+}
+
+.who-content ul li{
+    border-bottom: 1px solid grey;
+}
