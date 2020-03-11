@@ -21,7 +21,7 @@
                     <li><a href="#showcase">Home</a></li>
                     <li><a href="#what">What</a></li>
                     <li><a href="#who">Who</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </header>
@@ -35,51 +35,92 @@
                 </div>
             </div>
         </section>
-    </body>
-    <section id="what">
-        <div class="container">
-            <h2><span class="primary-color">What</span> We Do</h2>
-            <div class="what-content">
-                <div class="box">
-                    <i class="fas fa-university fa-3x"></i>
-                    <h3>Investment Banking</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
-                        neque
-                        laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
-                </div>
-                <div class="box">
-                    <i class="fas fa-book-reader fa-3x"></i>
-                    <h3>Portfolio Management</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
-                        neque
-                        laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
-                </div>
-                <div class="box">
-                    <i class="fas fa-pencil-alt fa-3x"></i>
-                    <h3>Tax & Custodial</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
-                        neque
-                        laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
+        <section id="what">
+            <div class="container">
+                <h2><span class="primary-color">What</span> We Do</h2>
+                <div class="what-content">
+                    <div class="box">
+                        <i class="fas fa-university fa-3x"></i>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
+                            neque
+                            laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-book-reader fa-3x"></i>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
+                            neque
+                            laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-pencil-alt fa-3x"></i>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatum, nemo voluptatibus
+                            neque
+                            laboriosam eligendi. Facilis aut corporis corrupti aperiam?</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="who">
-        <div class="who-img"></div>
-        <div class="who-content">
-            <h3><span class="primary-color">Who</span> We Are</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam omnis ut quisquam, error voluptas vel
-                non nobis tempore, aliquam recusandae laboriosam fuga hic dolores aspernatur repudiandae, rerum dolor
-                dolore nemo!</p>
-            <h4>Our Team</h4>
-            <ul>
-                <li>Mark Barron: CEO</li>
-                <li>Samuel L Jackson: CFO</li>
-                <li>Dwanye Johnson: Lead Accountant</li>
-                <li>Quentin Tarantino: Production Manager</li>
-                <li>Bernie Madoff: Senior Accountant</li>
-            </ul>
-        </div>
-    </section>
+        </section>
+        <section id="who">
+            <div class="who-img"></div>
+            <div class="who-content">
+                <h3><span class="primary-color">Who</span> We Are</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam omnis ut quisquam, error voluptas
+                    vel
+                    non nobis tempore, aliquam recusandae laboriosam fuga hic dolores aspernatur repudiandae, rerum
+                    dolor
+                    dolore nemo!</p>
+                <h4>Our Team</h4>
+                <ul>
+                    <li>Mark Barron: CEO</li>
+                    <li>Samuel L Jackson: CFO</li>
+                    <li>Dwanye Johnson: Lead Accountant</li>
+                    <li>Quentin Tarantino: Production Manager</li>
+                    <li>Bernie Madoff: Senior Accountant</li>
+                </ul>
+            </div>
+        </section>
+        <section id="clients">
+            <div class="container">
+                <h2><span class="primary-color">Our</span> Clients</h2>
+                <div class="logos">
+                    <div class="logo"> <img src="/images/logos/logo1.png" alt="" sizes="" srcset=""></div>
+                    <div class="logo"><img src="/images/logos/logo2.png" alt="" sizes="" srcset=""></div>
+                    <div class="logo"><img src="/images/logos/logo3.png" alt="" sizes="" srcset=""></div>
+                    <div class="logo"><img src="/images/logos/logo4.png" alt="" sizes="" srcset=""></div>
+                    <div class="logo"><img src="/images/logos/logo5.png" alt="" sizes="" srcset=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <p>Please use the form to contact us</p>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Name" name="name">
+                    <label for="Email">Email</label>
+                    <input type="text" placeholder="Enter Email" name="Email">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="text" placeholder="Enter Phone Number" name="Phone Number">
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Enter Message"></textarea>
+                    <button class="btn">Send</button>
+                </form>
 
+            </div>
+            <div id="map-container">
+                <div id="map"></div>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtrKfAJVW7xkXBXTfaFM2XFM8nhiwIXgE&callback=initMap"
+            async defer></script>
+    </body>
+<footer>
+    <p> CopyRight &copy; 2020, EdgeLedger. All Rights Reserved.</p>
+</footer>
 </html>
