@@ -213,7 +213,7 @@ header ul li a{
 .logo{
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .logo img{
